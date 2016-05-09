@@ -6,7 +6,7 @@
 
 int main(int argc, char* argv[]){
 	
-	FILE *fp = open("toto.txt",O_RDONLY);
+	int fp = open("toto.txt",O_RDONLY);
 	
 	
 	return 0;
